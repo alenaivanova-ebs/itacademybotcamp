@@ -1,7 +1,7 @@
 # Project exclude paths
 /.gradle/
 /.idea/
-/build/
+/target/
 /build/classes/java/main/
 .idea\
 .gradle\
@@ -14,7 +14,7 @@ lib\
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-/build/
+/target/
 .idea/*
 .build/*
 /lib/
