@@ -1,0 +1,26 @@
+version: "3"
+services:
+  itacademybootcamp:
+    image: itacademybootcamp
+    restart: always
+    build: .
+    ports:
+      - 8083:8080
+    environment:
+      MYSQL_HOST: mysqldb
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: gift
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+
+  mysqldb:
+      container_name: mysqldb
+      image: mysql
+      volumes:
+        - D:\java\runner\db:/var/lib/mysql
+      ports:
+        - 3307:3306
+      environment:
+        MYSQL_DATABASE: gift
+        MYSQL_ROOT_PASSWORD: root
+

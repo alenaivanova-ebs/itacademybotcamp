@@ -1,0 +1,4 @@
+com\itacademy\bootcamp\exception\ServiceException.class
+com\itacademy\bootcamp\ManagementService.class
+com\itacademy\bootcamp\service\impl\impl\UserServiceImpl.class
+com\itacademy\bootcamp\UserService.class

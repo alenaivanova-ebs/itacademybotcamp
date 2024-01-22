@@ -1,0 +1,9 @@
+com\itacademy\bootcamp\controller\UserController.class
+com\itacademy\bootcamp\validator\UserValidator.class
+com\itacademy\bootcamp\response\InfoResponse.class
+com\itacademy\bootcamp\Application.class
+com\itacademy\bootcamp\converter\UserConverter.class
+com\itacademy\bootcamp\response\ErrorResponse.class
+com\itacademy\bootcamp\configuration\WebConfig.class
+com\itacademy\bootcamp\controller\RestExceptionHandler.class
+com\itacademy\bootcamp\dto\UserDTO.class
