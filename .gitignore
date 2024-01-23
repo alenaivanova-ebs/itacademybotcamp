@@ -1,10 +1,7 @@
 # Project exclude paths
-/.gradle/
 /.idea/
 /target/
-/build/classes/java/main/
 .idea\
-.gradle\
 lib\
 # Default ignored files
 /shelf/
@@ -14,12 +11,6 @@ lib\
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-/target/
 .idea/*
-.build/*
 /lib/
-/Build/*
-.gradlelib\
-/gradle/
 /repository/lib/
-

@@ -1,4 +1,4 @@
-package com.itacademy.bootcamp.service.impl.impl;
+package com.itacademy.bootcamp.service.impl;
 
 import com.itacademy.bootcamp.dao.UserDAO;
 import com.itacademy.bootcamp.exception.DAOException;
@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
 @Service
 public class UserServiceImpl implements UserService {
 
-    private static final Logger logger = LogManager.getLogger();
+    private static final Logger logger = LogManager.getLogger(UserServiceImpl.class);
     private final UserDAO userDAO;
 
     @Autowired
